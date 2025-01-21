@@ -1,0 +1,11 @@
+
+header{
+    background-image: url(./img/pattern.png);
+    background-color: skyblue;
+    padding: 2em;
+}
+
+.img-sfondo{
+    height: min-content;
+    padding-left: 10%;
+}
