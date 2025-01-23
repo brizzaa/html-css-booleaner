@@ -3,9 +3,40 @@ header{
     background-image: url(./img/pattern.png);
     background-color: skyblue;
     padding: 2em;
+    background-size: 30%;
 }
-
-.img-sfondo{
-    height: min-content;
-    padding-left: 10%;
+.img-booleaner{
+    height: 50px;
+    padding-left: 8%;
+}
+main{
+  padding-left: 10%;
+  padding-right: 10%;  
+  font-size: 14px;
+}
+div{
+    padding-top: 20px;
+}
+.titolo{
+    line-height: 0.2;
+}
+figcaption{
+    font-weight: 200;
+    font-size: small;
+}
+.scritta-grigia{
+    color: rgb(156, 156, 156);
+}
+.scritta-blu{
+    color: skyblue;
+}
+.evidenziatore {
+    background-color: yellow;
+}
+ul{
+  position: relative;
+  left: -20px;
+}
+table{
+    
 }
