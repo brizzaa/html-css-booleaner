@@ -37,6 +37,36 @@ ul{
   position: relative;
   left: -20px;
 }
-table{
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+thead {
+    background-color: rgb(132, 168, 219);
+    color: white;
+}
+
+thead th {
+    border: 1px solid white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(225, 230, 249);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody td {
+    border: 1px solid white;
+}
+footer{
+    padding: 5px;
+    background-color: rgb(0, 13, 78);
+    text-align: center;
+    color: white;
     
 }
